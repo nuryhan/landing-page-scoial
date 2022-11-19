@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gradient: linear-gradient(92.44deg, #556ee6 0.13%, #6b21a8 100%);
+  --card-shadow: #c4c4c4;
+  --box-shadow: 6px 6px 54px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.header-gradient {
+  background: linear-gradient(
+    360deg,
+    rgba(107, 33, 168, 0.8) 0%,
+    rgba(0, 0, 0, 0.22) 108.56%
+  );
+}
+
+.text-gradient {
+  background: linear-gradient(94.09deg, #556ee6 0.21%, #6b21a8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-community-gradient {
+  background: linear-gradient(102.23deg, #556ee6 0.55%, #6b21a8 215.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.community-gradient {
+  background: linear-gradient(180deg, #6b21a8 -117.38%, #0b0b0d 100%);
+}
+
+.community-bg-circle {
+  background: transparent;
+  /* Bluejestic Background */
+
+  border: 1.29455px solid #556ee6;
+  border-radius: 50%;
+  overflow: none;
+  overflow-x: hidden;
+  transform: rotate(-22.09deg);
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
